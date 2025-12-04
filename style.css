@@ -1,0 +1,288 @@
+/* GENERAL */
+html {
+    scroll-behavior: smooth;
+}
+
+/* NAVBAR */
+.navbar {
+    position: fixed;
+    gap: 80px;
+    right: 50px;
+    top: 20px;
+    display: flex;
+    background-color: gray;
+    padding: 10px 20px;
+    border-radius: 10px;
+    justify-content: flex-end;
+}
+.navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar a:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+/* HOME */
+.myname {
+    text-align: center;
+    font-size: 100px;
+    color: black;
+    margin-top: 340px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button-container {
+    text-align: center;
+    margin-top: 350px;
+}
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: gray;
+    color: rgb(18, 17, 17);
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.btn:hover {
+    background-color: lightgray;
+}
+hr {
+    margin-top: 100px;
+    border: none;
+    border-top: 2px solid black;
+    width: 80%;
+}
+
+/* PROJECTS NAVBAR */
+#projects {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+}
+.projects-navbar {
+    font-size: 50px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+    display: table;
+    margin: 20px auto;
+    padding: 100px 400px;
+}
+.projects-navbar a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 50px 140px;
+}
+.projects-navbar a:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+/* KOOTH QWELL */
+.kooth-header {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+}
+.kooth-image, .qwell-image {
+    width: 45%;
+    height: 800px;      
+    object-fit: cover;
+    display: inline-block;
+}
+.kooth-description {
+    margin-top: 80px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: lighter;
+    font-style: italic;
+    color: rgb(145, 144, 144);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+/* TAKEAWAY FRIDAYS & TREAT BOX */
+.taf-header {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+}
+.taf-image, .tb-image {
+    width: 45%;
+    height: 600px;
+    margin-top: 50px;
+}
+.tb-descripton {
+    margin-top: 80px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: lighter;
+    font-style: italic;
+    color: rgb(145, 144, 144);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+/* NHS VIDEO SECTION */
+.nhs-header {
+    margin-top: 80px;
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+}
+.nhs-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+.nhs-wrap iframe {
+    width: 100%;
+    max-width: 900px;
+    height: 500px; /* adjust height as needed */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+}
+.nhs-desc {
+    margin-top: 80px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: lighter;
+    font-style: italic;
+    color: rgb(145, 144, 144);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+/* WISE VIDEO SECTION */
+.wise-header {
+    margin-top: 80px;
+    text-align: center;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+}
+.wise-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 40px 0;
+}
+.wise-wrap iframe {
+    width: 315px;   /* portrait width for Shorts */
+    height: 560px;  /* portrait height */
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.25);
+}
+.wise-desc {
+    margin-top: 80px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: lighter;
+    font-style: italic;
+    color: rgb(145, 144, 144);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+/* WILD FELL */
+.wildfell-header {
+    margin-top: 80px;
+    text-align: center;
+    font-size: 80px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gray;
+}
+.wildfell-image {
+    display: block;
+    margin: 0 auto;          
+    width: 1000px;
+    height: 600px;
+}
+.wildfell-desc {
+    margin-top: 80px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: lighter;
+    font-style: italic;
+    color: rgb(145, 144, 144);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+/* ABOUT ME */
+.aboutme-header {
+    margin-top: 60px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.aboutme-description {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: lighter;
+    font-style: italic;
+    color: rgb(145, 144, 144);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 60px;
+}
+
+/* CONTACT */
+.contact-header {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact-description {
+    font-size: 25px;
+    font-weight: lighter;
+}
+.contact-description a {
+    text-decoration: underline;
+}
+.contact-description a:hover {
+    text-decoration: none;
+}
+.linkedinprofile {
+    font-size: 25px;
+    font-weight: lighter;
+    text-align: justify;
+}
+.linkedinprofile a {
+    text-decoration: underline;
+}
+.footerend {
+    text-align: center;
+}
